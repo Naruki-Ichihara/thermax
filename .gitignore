@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[codz]
+*.so
+.pytest_cache/
+.ruff_cache/
+
+# Packaging
+build/
+dist/
+*.egg-info/
+
+# Simulation outputs -- these are what filled examples/advance with 172 MB.
+*.npy
+*.npz
+*.csv
+*.vti
+*.vtu
+*.vtk
+*.vtp
+*.xdmf
+*.h5
+*_snapshots/
+outputs/
