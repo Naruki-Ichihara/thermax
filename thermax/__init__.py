@@ -26,6 +26,7 @@ from .io import SnapshotWriter, snapshots_to_xdmf
 from .objectives import create_conduction_energy_fn
 from .orientation import (box_to_disk, orientation_conductivity,
                           orientation_cte, unit_trace_a2, unit_trace_a2_3d)
+from .plotstyle import INK, MM, NPG, series_colors, use_nature_style
 from .stress import (adaptive_scale, create_stress_tensor_fn,
                      create_vonmises_fn, pnorm)
 from .physics import (
@@ -65,4 +66,9 @@ __all__ = [
     "unit_trace_a2_3d",
     "orientation_conductivity",
     "orientation_cte",
+    "NPG",
+    "INK",
+    "MM",
+    "series_colors",
+    "use_nature_style",
 ]

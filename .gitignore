@@ -22,3 +22,7 @@ dist/
 *.h5
 *_snapshots/
 outputs/
+
+# Example run outputs (figures, sweeps)
+examples/outputs/
+examples/outputs_*/
